@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 ruby "2.2.0"
 
 gem "sinatra" 
-gem "activerecord" 
+gem "activerecord" , ">= 4.2.2"
 gem "sinatra-activerecord"
 
 gem 'pg'
